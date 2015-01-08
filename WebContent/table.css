@@ -1,0 +1,28 @@
+@CHARSET "ISO-8859-1";
+table.center, tr {
+    margin-left: auto; 
+    margin-right: auto;
+    border: 3px dotted red;
+}
+.full {
+    margin-left: auto; 
+    margin-right: auto;
+    border: 2px solid black;
+	width: 70%;
+	font-size: medium;
+	text-align: left;
+}
+td {
+	text-align: center;
+	font-size: x-large;
+	font-weight: bold;
+	border: 3px dotted red;
+}
+div {
+	font-size: small;
+}
+h1 {
+	padding-left: 15%;
+	text-decoration: underline;
+	text-align: left;
+}

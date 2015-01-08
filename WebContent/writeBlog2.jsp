@@ -34,7 +34,6 @@
 			sqlStatement = con.createStatement(); // generate query
 			String query = "INSERT INTO blog (headline, username, body) VALUES ('" + headline + "', '" + username + "', '" + body + "')"; // get result code
 			int sqlStatus = sqlStatement.executeUpdate(query);
-			out.println(sqlStatus);
 			if(sqlStatus != 0) {
 				RequestDispatcher rd = request.getRequestDispatcher("userMenu.jsp");
 				rd.forward(request, response);

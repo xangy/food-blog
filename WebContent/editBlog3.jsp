@@ -40,7 +40,6 @@
 				query = "DELETE FROM blog WHERE headline='" + oldHeadline + "'";
 			}
 			int sqlStatus = sqlStatement.executeUpdate(query);
-			out.println(sqlStatus);
 			if(sqlStatus != 0) {
 				RequestDispatcher rd = request.getRequestDispatcher("userMenu.jsp");
 				rd.forward(request, response);
